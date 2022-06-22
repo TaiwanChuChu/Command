@@ -1,0 +1,25 @@
+{
+    "name": "40205/command",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LWJ",
+            "email": "40205003@im.wfu.edu.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "Lwj\\Command\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lwj\\Command\\CommandServiceProvider"
+            ]
+        }
+    }
+}
